@@ -53,5 +53,15 @@ That's all there is to it. Here's an example::
     C:\Users\ndunbar\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\;
     C:\Program Files (x86)\Java\jre1.8.0_111\bin
     ...
+
+Output
+------
+
+- If there's a folder in your ``%PATH%`` which has spaces and is therefore wrapped in double quotes ("these things") then the quotes and spaces will be present in the output - which is handy!
+
+- The output from the utility may wrap around if you send it to a command window. Copying and pasting from this windows will result in hard line feeds in the pasted text. Beware. If you intend doing anything with the output, redirect the output to a file, where it will not wrap::
+
+    MyPath > path.txt
     
+
 Enjoy.
