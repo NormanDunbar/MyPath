@@ -3,7 +3,7 @@ MyPath
 
 ``MyPath`` is a simple/useless Windows utility to dump out the ``%PATH%`` environment variable with a single search path per line. This is useful (to me) as I cannot be bothered any more to try and look along a huge PATH of folder names looking for the semi-colons that separate them.  Lazy? No, getting too old for this stuff!
 
-``MyPath`` takes the current value of ``%PATH%`` and prints it out. After each and every semi-colon, it prints a newline, so each folder in ``%PATH%`` starts on a separate line. The semi-colon is printed, when found, which is useful if you ever want to interrogate the ``%PATH%`` and do a quick modification ebfore putting it all back together again and resetting ``%PATH%``.
+``MyPath`` takes the current value of ``%PATH%`` and prints it out. After each and every semi-colon, it prints a newline, so each folder in ``%PATH%`` starts on a separate line. The semi-colon is printed, when found, which is useful if you ever want to interrogate the ``%PATH%`` and do a quick modification before putting it all back together again and resetting ``%PATH%``.
 
 You might be surprised how often you (ok, I) have to do this!
 
@@ -32,7 +32,7 @@ Once compiled, the utility is simple to use::
 
 That's all there is to it. Here's an example::
 
-c:\>mypath
+    c:\>mypath
 
     C:\app\ndunbar\product\11.2.0\client_2.64bit\bin;
     C:\app\ndunbar\product\11.2.0\client_1\bin;
